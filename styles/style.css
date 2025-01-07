@@ -1,13 +1,11 @@
 body {
+    font-family: Raleway-Regular, Raleway-Bold, serif;
     overflow-x: auto;
 }
 
 .header {
     font-size: 18px;
     font-weight: 400;
-}
-
-.header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
@@ -277,7 +275,7 @@ body {
     line-height: 24px;
 }
 
-.about__text_1 {    
+.about__text_1 {
     padding-bottom: 24px;
 }
 
