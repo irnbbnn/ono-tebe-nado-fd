@@ -207,6 +207,7 @@
 .card__text {
     color: #fff;
     font-size: 20px;
+    font-weight: 400;
 }
 
 .card__title, .card__text {
