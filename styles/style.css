@@ -149,6 +149,7 @@ body {
     display: flex;
     gap: 25px;
     color: #fff;
+    flex-wrap: wrap;
 }
 
 .card {
