@@ -1,26 +1,21 @@
-body {
-    height: 3028px;
-    width: 1100px;
-}
-
 .header {
     font-size: 18px;
     font-weight: 400;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
-    grid-template-rows: 293px;
+    grid-template-rows: auto;
     align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 93px 50px 95px;
 }
 
 .header__address {
     justify-self: end;
-    width: 240px;
+    width: 240px;    
 }
 
-.address-line-height {
+.address {
     line-height: 1.35;
+    text-underline-offset: 4px;
 }
 
 .logo {
@@ -35,22 +30,21 @@ body {
     padding-bottom: 5px;
 }
 
-.header__links-list-item {
+.header__list-item {
     list-style: circle;
+    text-underline-offset: 4px;
 }
 
-.links-list-item_reset-list {
+.reset-list {
     list-style: none;
-    font-style: normal;
 }
 
-.links-list-item_active {
+.active_link {
     text-decoration: none;
 }
 
-.links-list-item {
-    text-decoration: underline;
-    text-underline-offset: 4px;
+.adress-reset-style {
+    font-style: normal;
 }
 
 .cover {
@@ -153,17 +147,19 @@ body {
 }
 
 .card {
+    color: #fff;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-direction: column;
     max-width: 334px;
-    width:100%;
+    width: 100%;
     min-height: 596px;
     justify-content: space-between;
     padding: 48px 40px;
     position: relative;
+    text-decoration: none;
 }
 
 .card_type_film {
@@ -179,11 +175,10 @@ body {
 }
 
 .card__title {
-    color: #fff;
     font-size: 22px;
     font-weight: bold;
-    text-decoration: underline;
     text-transform: uppercase;
+    text-decoration: underline;
 }
 
 .card__text {
@@ -205,13 +200,13 @@ body {
 }
 
 .about {
-    margin: 120px 24px 180px 79px;
+    margin: 118px 24px 156px 79px;
 }
 
 .about__column {
     display: grid;
     grid-template-columns: min-content 700px;
-    grid-template-rows: 595px;
+    grid-template-rows: auto;
     justify-content: center;
     align-content: center;
     gap: 72px;
@@ -258,7 +253,6 @@ body {
     grid-template-rows: 180px;
     align-items: start;
     justify-content: center;
-    padding: 0px;
     font-size: 18px;
     margin-left: 50px;
     margin-right: 50px;
@@ -271,7 +265,7 @@ body {
 }
 
 .footer__menu-list-item {
-    line-height: 1.3;
+    text-underline-offset: 4px;
 }
 
 .footer__social-link {
