@@ -28,23 +28,16 @@
     display: flex;
     gap: 33px;
     padding-bottom: 5px;
-}
-
-.header__list-item {
-    list-style: circle;
     text-underline-offset: 4px;
-}
-
-.reset-list {
-    list-style: none;
+    list-style: circle;
 }
 
 .active_link {
     text-decoration: none;
 }
 
-.adress-reset-style {
-    font-style: normal;
+.header_no_bullit {
+    list-style: none;
 }
 
 .cover {
@@ -197,6 +190,8 @@
     margin-top: 30px;
     margin-left: 40px;
     font-size: 20px;
+    line-height: 1.35;
+    text-underline-offset: 4px;
 }
 
 .about {
